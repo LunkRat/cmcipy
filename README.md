@@ -21,15 +21,13 @@ python3 -m pip install -r requirements.txt
 
 ## Default output
 
-It outputs plots similar to in the blog tutorial:
+It outputs plots similar to those from the blog tutorial:
 
 ![Default plot output](figures/plots.png)
 
 And dumps a the calculations and results to `stdout`:
 
 ```
-Read the tutorial: 
-https://motorbehaviour.wordpress.com/2014/10/31/confidence-intervals-in-within-participant-design-a-tutorial-on-the-cousineau-morey-method/
 
 Example dataset from the tutorial:
      A1   A2   B1   B2  participant_mean
@@ -169,8 +167,10 @@ std    31.0   31.0
 Calculate confidence interval for A and B means:
 c = 2
 morey = 1.4142135623730951
+
 A: [156.12582733953462, 200.37417266046538]
 B: [230.87582733953462, 275.1241726604654]
+
      mean    std  mc_ci
 A  178.25  31.46  22.12
 B  253.00  31.46  22.12
